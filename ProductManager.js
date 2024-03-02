@@ -66,7 +66,7 @@ class ProductManager{
 
 const products = new ProductManager()
 
-// Devuelve un arreglo vacío [] --> agregar un console.log en el método getProducts()
+// Devuelve un arreglo vacío []
 products.getProducts()
 // Agrega los productos al arregló que antes estaba vacío
 products.addProducts('Producto prueba', 'Este es un producto prueba', 200, 'Sin imagen', 'abc123', 25)
